@@ -4,6 +4,17 @@
   "private": true,
   "description": "gatsby-practice",
   "author": "chan9yu",
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "scripts": {
     "dev": "gatsby develop",
     "start": "gatsby develop",
