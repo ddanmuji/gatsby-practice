@@ -8,6 +8,10 @@ const config: GatsbyConfig = {
   },
   graphqlTypegen: true,
   plugins: [
+    `gatsby-plugin-mdx`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,7 +19,6 @@ const config: GatsbyConfig = {
         path: `${__dirname}/contents/`,
       },
     },
-    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

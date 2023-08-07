@@ -1,5 +1,5 @@
-import type { HeadFC, PageProps } from 'gatsby';
-import { FC } from 'react';
+import { type HeadFC, type PageProps } from 'gatsby';
+import { type FC } from 'react';
 
 import { Layout, Seo } from '../components';
 

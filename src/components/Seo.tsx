@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import { FC } from 'react';
+import { type FC } from 'react';
 
 interface SeoProps {
   title: string;

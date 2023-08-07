@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { FC, ReactNode } from 'react';
+import { type FC, type ReactNode } from 'react';
 
 interface LayoutProps {
   children?: ReactNode;
